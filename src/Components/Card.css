@@ -1,0 +1,56 @@
+.Result {
+  display: flex;
+  height: 50vh;
+  width: 70vw;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid goldenrod;
+}
+.Result h2 {
+  font: normal normal 700 24px/28px "Mulish";
+  margin-bottom: 15px;
+}
+.Result p,
+.Result label {
+  font: normal normal 600 20px/24px "Mulish";
+  margin-bottom: 5px;
+}
+.tempToogleContainer {
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+}
+.tempToogleContainer input {
+  margin-right: 5px;
+  cursor: pointer;
+}
+.tempToogleContainer label{
+  cursor: pointer;
+}
+.condition {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 40px;
+  column-gap: 10px;
+}
+.condition img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  margin-top: -10px;
+}
+.report button{
+  background-color: rgba(128, 128, 128,0.3);
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.report button a{
+  text-decoration: none;
+  color: black;
+  font: normal normal 600 20px/24px "Mulish";
+}

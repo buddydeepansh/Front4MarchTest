@@ -1,0 +1,15 @@
+.ErrorPage a {
+  text-align: center;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  margin-top: 10px;
+  font: normal normal 500 18px/24px "Mulish"
+}
+
+.ErrorPage a:visited{
+  color: black;
+}
+.ErrorPage p{
+  color: red;
+}
